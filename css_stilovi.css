@@ -1,0 +1,218 @@
+#footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  color: white;
+  background-color: #484848;
+  margin-left: auto;
+  margin-right: auto;
+margin-bottom: -25px;
+}
+
+#footer-tekst{
+  width: 100%;
+}
+
+.content-banner {
+  max-width: 75%;
+  background-color: white;
+  padding-bottom:5px;
+  padding-left:200px;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+ }
+
+#pstatus{
+margin-left: 50%;
+width: 100%;
+}
+
+#pstatus2{
+margin-left: 50%;
+}
+
+#nav {
+  width: 98%;
+  margin: auto;
+  list-style:none;
+  font-family: verdana;
+  padding-top: 10px;
+}
+
+table, th, td {
+  border: 0.5px solid black;
+  font-family: verdana;
+}
+
+
+h1, h2, h3, p {
+  font-family: verdana;
+}
+
+body {
+position:relative;
+}
+
+img {
+  border-radius: 8px;
+}
+
+#autor {
+  float: left;
+margin: 0 50px 0 20px;  
+}
+
+#autor-tekst {
+  float: left;
+  margin:10px;
+  padding: 10px;
+  font-family: verdana;
+  background-color: white;
+}
+
+#prijava{
+position:relative;
+}
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+  overflow: hidden;
+  background-color: #484848;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-family: verdana;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  float: left;
+}
+
+
+div.gallery img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#nav1 {
+  position: relative;
+  min-height:100vh;
+  max-width:75%;
+  margin: auto;
+  list-style:none;
+  font-family: verdana;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 270px;
+  height: 250px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #484848;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.content-autor {
+  width: auto;
+  height: 50%;
+  margin: auto;
+  padding-top: 50px;
+  font-family: verdana;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+button {
+  background-color: #484848;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-family: verdana;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.avatar {
+  width: 20%;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom:15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
